@@ -1,0 +1,9 @@
+name: First GitHub Actions
+
+on: [push]
+
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: self-hosted
+    steps:
+      - run: echo "Hello Cloud Gurus"
